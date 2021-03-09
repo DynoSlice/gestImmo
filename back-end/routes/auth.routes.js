@@ -1,5 +1,6 @@
 const { verifySignUp } = require("../middlewares/verifySignUp");
 const controller = require("../controllers/auth.controller");
+const controllerParc = require("../controllers/parc.controller");
 
 module.exports = function(app) {
   app.use(function(req, res, next) {
@@ -10,6 +11,7 @@ module.exports = function(app) {
     next();
   });
 
+  //route login
   app.post(
     "/api/auth/signup",
     [
@@ -19,4 +21,9 @@ module.exports = function(app) {
   );
 
   app.post("/api/auth/signin", controller.signin);
+
+  //route parc 
+  app.post("/api/parc", controllerParc.createParc);
+
+  app.get("/api/parc/:id", controllerParc.myparcs);
 };
