@@ -1,0 +1,124 @@
+
+
+.nice-txt {
+  color: #053359;
+}
+
+.nice-btn {
+  background: #053359;
+  color:white;
+  font-size: 13px;
+  padding: 15px;
+  font-weight: 600;
+}
+.nice-btn-outline {
+  color: #053359;
+  font-size: 14px;
+  padding: 14px;
+  border: 2px solid #053359;
+  font-weight: bold;
+
+}
+
+.nice-input {
+  border: 2px solid #053359;
+  color: #053359;
+  border-radius:0px;
+}
+
+.nice-input:focus {
+  color: #024d9c;
+  background-color: #fff;
+  border-color: #0254ac;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #0254ac4f;
+}
+
+.image-lot1{
+  border:2px solid white;
+  border-radius: 50%;
+  width:60px;
+  position: relative;
+  top: -5px;
+  left: -15px;
+  margin-bottom:10px;
+}
+
+.image-lot2{
+  border:2px solid white;
+  border-radius: 50%;
+  width:60px;
+  position: relative;
+  top: 0;
+  left: -50px;
+}
+
+.list-group-item-immo{
+  text-align:left;
+  border-top :1px solid rgba(0,0,0,.125);
+  height: 100px;
+}
+.list-group-flush>.list-group-item:last-child {
+  border-bottom-width: 1px; 
+  border-top-width: 1px; 
+}
+
+.list-group-flush>.list-group-item {
+  border-width: 1px 0px 1px; 
+}
+
+.image-locataire{
+  border-radius: 50%;
+  width:130px;
+}
+
+.image-locataire-bien{
+  border-radius: 50%;
+  width:100px;
+  margin: 20px;
+}
+
+.text-list-lot{
+  color: #053359;
+  font-weight: bold;
+  font-size:12px;
+}
+
+.text-list-annee{
+  color: #053359;
+  font-size:12px;
+}
+
+.text-list-bien{
+  color: #0464B4;
+  font-weight: bold;
+  font-size:15px;
+}
+
+.text-list-under{
+  color: #053359;
+  font-size:12px;
+  position: relative;
+  top: -20px;
+  left:40px;
+}
+
+.text-list-under-bien{
+  color: #053359;
+  font-size:12px;
+  position: relative;
+}
+
+.image-list{
+  border-radius: 50%;
+  width:65px;
+  margin-left: -100px;
+}
+
+.btnbienimmo{
+  color: white;
+  margin: 20px;
+  background-color: purple;
+  border: none;
+  border-radius: 20px;
+}

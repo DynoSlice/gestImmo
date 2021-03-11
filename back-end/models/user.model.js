@@ -4,7 +4,11 @@ const User = mongoose.model(
   "User",
   new mongoose.Schema({
     email: String,
-    password: String
+    password: String,
+    Parc :{
+      type:mongoose.Schema.Types.ObjectId,
+      ref:'Parc'
+    }
   })
 );
 

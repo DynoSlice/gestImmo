@@ -7,7 +7,13 @@ const Parc = mongoose.model(
     user :{
         type:mongoose.Schema.Types.ObjectId,
         ref:'User'
-    }
+    },
+    lotBienImmobilier: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "lotBienImmobilier"
+      }
+    ]
   })
 );
 
